@@ -1,0 +1,20 @@
+This is just a spike. Please do not use.
+
+This is mostly an experiment to see how low-memory I can make a simple process launcher/watcher.
+
+Goals:
+* No dependencies other than Ruby
+* Extremely low memory consumption
+* Simple DSL
+
+TODO:
+* Everything
+
+Current status:
+* Pros
+** Uses under 2MB of RAM on Ruby 1.8.7
+* Cons
+** Only supports watching single processes for life
+** No support for any other kinds of watches
+** In other words... this is not even alpha quality
+** So don't use it.
